@@ -1,0 +1,15 @@
+#system epoc img
+#set epocinit=iplib
+#model small jpi
+
+--- Compile
+#compile vine
+
+--- Linking
+#pragma link(hwif.lib)
+#link %main
+
+--- Clean-up
+#file delete %main.exe
+#file copy %main.img %main.app
+#file delete %main.img

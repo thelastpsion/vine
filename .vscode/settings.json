@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.asm": "asm-intel-x86-generic",
+        "plib.h": "c",
+        "hwif.h": "c"
+    }
+}
